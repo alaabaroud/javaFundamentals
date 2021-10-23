@@ -15,6 +15,8 @@ public class ReviewsTest {
     @Test
     public void StarsTest () {
         Review review = new Review("bad", "helllo", 4);
+
+        
         assertEquals(4, 4, review.getStars());
     }
 
