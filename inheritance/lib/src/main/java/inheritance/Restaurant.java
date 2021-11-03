@@ -2,11 +2,11 @@ package inheritance;
 
 import java.util.LinkedList;
 
-public class Restaurant {
+public class Restaurant extends Points{
     private  String name;
     private  int stars;
     private int   priceCategory;
-    public LinkedList<Review> Reviews = new LinkedList<Review>();
+    public LinkedList<Review> review = new LinkedList<Review>();
 
     public Restaurant(String name, int stars, int priceCategory) {
         this.name = name;
@@ -43,9 +43,9 @@ public class Restaurant {
     }
 
     public  void addReview(Review Review) {
-        if (!Reviews.contains(Review)) {
+        if (!review.contains(Review)) {
             stars = stars+ Review.stars;
-            Reviews.add(Review);
+            review.add(Review);
         }
     }
 
@@ -65,6 +65,6 @@ public class Restaurant {
                 dollar +
                 ", " +
                 "reviews=" +
-                Reviews + '}';
+                review + '}';
     }
 }

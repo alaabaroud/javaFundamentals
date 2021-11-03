@@ -10,6 +10,7 @@ public class Review {
         this.body= body;
         this.author = author;
         this.stars=stars;
+//        this.movies = movies;
     }
 
     public String getBody() {

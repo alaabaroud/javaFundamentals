@@ -8,28 +8,28 @@ public class ReviewsTest {
 
     @Test
     public void bodyTest() {
-        Review review = new Review("bad", "helllo", 4);
-        assertEquals("bad", "bad", review.getBody());
+        Review Review = new Review("bad", "helllo", 4);
+        assertEquals("bad", "bad", Review.getBody());
     }
 
     @Test
     public void StarsTest () {
-        Review review = new Review("bad", "helllo", 4);
+        Review Review = new Review("bad", "helllo", 4);
 
         
-        assertEquals(4, 4, review.getStars());
+        assertEquals(4, 4, Review.getStars());
     }
 
     @Test
     public void AuthorTest () {
-        Review review = new Review("bad", "helllo", 4);
-        assertEquals("helllo", "helllo", review.getAuthor());
+        Review Review = new Review("bad", "helllo", 4);
+        assertEquals("helllo", "helllo", Review.getAuthor());
     }
     @Test
     public void toStringTest () {
-        Review review = new Review("bad", "helllo", 4);
+        Review Review = new Review("bad", "helllo", 4);
 String output = "Review {author='helllo', body='bad', stars=4}";
-        assertEquals(output,review.toString(),"Review {author='helllo', body='bad', stars=4}");
+        assertEquals(output,Review.toString(),"Review {author='helllo', body='bad', stars=4}");
     }
 }
 
