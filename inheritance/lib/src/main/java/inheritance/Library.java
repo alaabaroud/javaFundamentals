@@ -3,6 +3,8 @@
  */
 package inheritance;
 
+import java.net.Socket;
+
 public class Library {
    public static void main (String[] args){
       Restaurant res1 = new Restaurant("res1",4, 1);
@@ -10,6 +12,24 @@ public class Library {
       res1.addReview(review1);
       System.out.println(review1);
       System.out.println(res1);
+
+      System.out.println("Shops");
+      Shop shop = new Shop("hghghgh", "hgurhgur", 5);
+      Review shopReview = new Review("jigrj", "jirg",8);
+         shop.addReview(shopReview);
+      System.out.println(shop.toString());
+
+      Theater theater = new Theater("Joker");
+
+      theater.addMovie("joker");
+      theater.addMovie("Bohemian Rhapsody");
+      theater.addMovie("alalalla");
+      System.out.println("Moviess");
+theater.removeMovie("joker");
+      Review movieReview = new Review("amazing", "me", 5 );
+theater.addReview(movieReview);
+      System.out.println(movieReview);
+      System.out.println(theater.toString());
    }
 
 

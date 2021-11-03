@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b42f46cd-d28d-4f2e-820f-7a0256ca0b21" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/linter/app/src/main/java/linter/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/linter/app/src/main/java/linter/App.java" afterDir="false" />
+    <list default="true" id="fb214b50-ad14-4713-a1d1-be9662280987" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/javaFundamentals.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +20,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/inheritance">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/linter">
       <ProjectState />
     </projectState>
@@ -44,19 +54,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/linter/app/src/main/java/linter/App.java" root0="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="ProjectId" id="1zPCQs0pLLsftbx3vrlnstBa1fE" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="//wsl$/Ubuntu/home/alaabaroud/401-reps/data-structures-and-algorithms" />
+    <property name="last_opened_file_path" value="$USER_HOME$/lab7/Inheritance" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -95,15 +103,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.App" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b42f46cd-d28d-4f2e-820f-7a0256ca0b21" name="Changes" comment="" />
+      <changelist id="fb214b50-ad14-4713-a1d1-be9662280987" name="Changes" comment="" />
       <created>1634040322862</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
